@@ -416,29 +416,29 @@ h3 {
 }
 
 #blob {
-  background-image: url("img/blob.png");
+  background-image: url("img/menu/blob.png");
 }
 
 #first {
-  background-image: url("img/ui/firstweb.png");
+  background-image: url("img/menu/firstweb.png");
 }
 
 #menu1 {
-  background-image: url("img/menu.png");
+  background-image: url("img/menu/menu.png");
 }
 
 #room {
   background-position: 50% 30%;
-  background-image: url("img/room.png");
+  background-image: url("img/menu/room.png");
 }
 
 #revit {
-  background-image: url("img/revit.png");
+  background-image: url("img/menu/revit.png");
   background-position: 50% 20%;
 }
 
 #fashion {
-  background-image: url("img/fashion.png");
+  background-image: url("img/menu/fashion.png");
 }
 
 #services {
@@ -849,7 +849,8 @@ span {
   -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
   transition: background-color 0.5s, transform 0.5s ease-out;
   transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
-  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out,
+ -webkit-transform 0.5s ease-out;
 }
 
 .email {
