@@ -290,6 +290,35 @@ h3 {
   background: linear-gradient(-135deg, #b1a1f5, #ffffff);
 }
 
+#experience span {
+  text-transform: none;
+  font-size: 1rem;
+  margin-right: 0.3rem;
+}
+
+#experience .job-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  margin-left: -1rem;
+}
+
+#experience .date {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+#experience .company {
+  font-weight: 500;
+  color: #8b73f0;
+}
+
 #experience h2 {
   position: relative;
   top: 25vh;
@@ -297,9 +326,14 @@ h3 {
 
 #experience ul {
   list-style-type: circle;
+  font-size: 0.8rem;
 }
 
-#experience div {
+#experience li {
+  margin: 0.2rem 0;
+}
+
+#experience > div {
   margin: 0 20%;
   padding: 2% 0 0 0;
 }

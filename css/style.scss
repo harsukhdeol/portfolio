@@ -241,15 +241,38 @@ h3 {
 }
 #experience {
   background: linear-gradient(-135deg, #b1a1f5, #ffffff);
-
+  span {
+    text-transform: none;
+    font-size: 1rem;
+    margin-right: 0.3rem;
+  }
+  .job-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: -1rem;
+  }
+  .date {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  .company {
+    font-weight: 500;
+    color: darken($darkpurple, 10%);
+  }
   h2 {
     position: relative;
     top: 25vh;
   }
   ul {
     list-style-type: circle;
+    font-size: 0.8rem;
   }
-  div {
+  li {
+    margin: 0.2rem 0;
+  }
+  > div {
     margin: 0 20%;
     padding: 2% 0 0 0;
   }
