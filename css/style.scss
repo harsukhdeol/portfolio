@@ -207,7 +207,7 @@ h3 {
   /*  scroll-snap-align: start; */
   height: 85vh;
   padding-top: 50px;
-  margin-top: 5%;
+  margin: 1px 0;
 }
 #about {
   background: linear-gradient(135deg, #f0edfc, #afbcff);
@@ -693,5 +693,18 @@ span {
 }
 .codepen:hover {
   background: $darkblue;
+}
+
+footer {
+  background: rgb(219, 219, 219);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    color: rgb(138, 138, 138);
+    font-size: 0.6rem;
+    margin: 0;
+  }
 }
 /*@media(min-width: 500px)*/
