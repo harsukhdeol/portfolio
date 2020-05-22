@@ -347,7 +347,7 @@ h3 {
   position: relative;
   width: 50vw;
   left: 10%;
-  top: 30vh;
+  top: 50vh;
 }
 
 #text h2 {
@@ -504,7 +504,7 @@ h3 {
 
 #services > * {
   position: relative;
-  top: 40vh;
+  top: 58vh;
 }
 
 #grid {
@@ -828,7 +828,7 @@ span {
 
 #contact > * {
   position: relative;
-  top: 120vh;
+  top: 140vh;
 }
 
 #contact h2 {
