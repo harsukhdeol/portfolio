@@ -187,7 +187,7 @@ h1 {
   -webkit-text-stroke: 1px black;
 }
 #welcome-section {
-  scroll-snap-align: start;
+  /*  scroll-snap-align: start; */
   height: 85vh;
 }
 .sticky + #main {
@@ -204,7 +204,7 @@ h3 {
   margin: 5% 0 2% 0;
 }
 .section {
-  scroll-snap-align: start;
+  /*  scroll-snap-align: start; */
   height: 85vh;
   padding-top: 50px;
   margin-top: 5%;
@@ -413,7 +413,7 @@ $offset: 100vw;
     top: 58vh;
   }
   img {
-    width: 280px;
+    width: 260px;
     height: auto;
   }
 }
@@ -432,12 +432,12 @@ $offset: 100vw;
   background: white;
   position: absolute;
   p {
-    padding: 2em 0;
+    padding: 2em 0 1rem;
+    margin: 0;
   }
   a {
-    position: absolute;
-    bottom: 80px;
-    left: 80px;
+    transition: ease-in 0.5s background;
+    margin-bottom: 80px;
     background: rgb(204, 204, 204);
     padding: 10px 20px;
     border-radius: 26px;
@@ -537,11 +537,12 @@ $offset: 100vw;
   flex-direction: column;
   justify-content: start;
   box-sizing: border-box;
-  padding: 2em;
+  padding: 20px;
   margin: 0;
 }
 .front {
   transition: 0.5s;
+  border-radius: 2%;
   &:before {
     content: "";
     position: absolute;
@@ -561,44 +562,24 @@ span {
   font-size: 1.5em;
   z-index: 100;
   color: white;
+  margin: 0 20px;
 }
 #web {
-  .front {
+  .front,
+  a:hover {
     background: linear-gradient(45deg, #ffa1c5, #99b5ff);
-  }
-  .img {
-    background-image: url("img/ui/checkout.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 40%;
-    width: 100%;
   }
 }
 #art {
-  .front {
+  .front,
+  a:hover {
     background: linear-gradient(45deg, #fef78d, #ffa1c5);
-  }
-  .img {
-    background-image: url("img/art/statue.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 40%;
-    width: 100%;
   }
 }
 #graphic {
-  .front {
+  .front,
+  a:hover {
     background: linear-gradient(225deg, #feed8d, #7febff);
-  }
-  .img {
-    background-image: url("img/client/hack1.PNG");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 40%;
-    width: 100%;
   }
 }
 #education {

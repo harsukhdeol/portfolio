@@ -220,7 +220,7 @@ h1 {
 }
 
 #welcome-section {
-  scroll-snap-align: start;
+  /*  scroll-snap-align: start; */
   height: 85vh;
 }
 
@@ -240,7 +240,7 @@ h3 {
 }
 
 .section {
-  scroll-snap-align: start;
+  /*  scroll-snap-align: start; */
   height: 85vh;
   padding-top: 50px;
   margin-top: 5%;
@@ -508,7 +508,7 @@ h3 {
 }
 
 #services img {
-  width: 280px;
+  width: 260px;
   height: auto;
 }
 
@@ -532,13 +532,14 @@ h3 {
 }
 
 .card p {
-  padding: 2em 0;
+  padding: 2em 0 1rem;
+  margin: 0;
 }
 
 .card a {
-  position: absolute;
-  bottom: 80px;
-  left: 80px;
+  -webkit-transition: ease-in 0.5s background;
+  transition: ease-in 0.5s background;
+  margin-bottom: 80px;
   background: #cccccc;
   padding: 10px 20px;
   border-radius: 26px;
@@ -741,13 +742,14 @@ h3 {
           justify-content: start;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 2em;
+  padding: 20px;
   margin: 0;
 }
 
 .front {
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  border-radius: 2%;
 }
 
 .front:before {
@@ -772,45 +774,22 @@ span {
   font-size: 1.5em;
   z-index: 100;
   color: white;
+  margin: 0 20px;
 }
 
-#web .front {
+#web .front,
+#web a:hover {
   background: linear-gradient(45deg, #ffa1c5, #99b5ff);
 }
 
-#web .img {
-  background-image: url("img/ui/checkout.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 40%;
-  width: 100%;
-}
-
-#art .front {
+#art .front,
+#art a:hover {
   background: linear-gradient(45deg, #fef78d, #ffa1c5);
 }
 
-#art .img {
-  background-image: url("img/art/statue.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 40%;
-  width: 100%;
-}
-
-#graphic .front {
+#graphic .front,
+#graphic a:hover {
   background: linear-gradient(225deg, #feed8d, #7febff);
-}
-
-#graphic .img {
-  background-image: url("img/client/hack1.PNG");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 40%;
-  width: 100%;
 }
 
 #education {
