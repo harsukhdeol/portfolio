@@ -1,216 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="projects.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/projects.css" />
     <title>Projects</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-
-        <h1>Projects</h1>
-        <div>
-
-
-            <a href="#dev">
-                <h2>Development</h2>
-            </a>
-            <a href="#design">
-                <h2>Design</h2>
-            </a>
-        </div>
+      <h1>Projects</h1>
+      <div>
+        <a href="#dev">
+          <h2>Development</h2>
+        </a>
+        <a href="#design">
+          <h2>Design</h2>
+        </a>
+      </div>
     </header>
     <div class="container">
-
-
-        <div id="dev">
-            <h2>Development</h2>
-            <div id="revit" class="section">
-                <div>
-                    <div class="less">
-
-                        <h3 class="title">3D Software Programmer</h3>
-                        <h4>DEI & Associates</h4>
-                        <p class="description">I used Dynamo to automate the creation of routine engineering drawings
-                            used in HVAC and electrical systems of all buildings. Dynamo is a visual programming
-                            language based off Python that uses Revit API to automate drafting and engineering
-                            calculations. Below is a sample of the tasks I automated with this program.</p>
-                    </div>
-                    <div class="more">
-                        <div class="card">
-
-                            <h3 class="label">Place Air Terminals and VAVs</h3>
-                            <video controls src="vids/Place Air Terminals and VAV.mp4"></video>
-                            <p class="caption">This script placed the correct VAV family according to the specified
-                                location and an array of air terminals spaced envenly in the room with the specified
-                                dimensions</p>
-                        </div>
-                        <div class="card">
-
-                            <h3 class="label">Connecting Pipes and Valves to VAV</h3>
-                            <video controls src="vids/Connecting Pipes with Valves to VAV.mp4"></video>
-                            <p class="caption">This script connects hot water supply and return pipes to the VAV in the
-                                specified direction and attaches the correct pipe accessories and valves. </p>
-                        </div>
-                        <div class="card">
-
-                            <h3 class="label">Fire Alarm Riser </h3>
-                            <video controls src="vids/firealarm drafting.mp4"></video>
-                            <p class="caption">This script finds all the fire alarm devices in the model and organizes
-                                them by Level and HVAC zone to create a fire alarm drafting view</p>
-                        </div>
-                        <div class="card">
-
-                            <h3 class="label">Wall Devices</h3>
-                            <video controls src="vids/wall devices.mp4"></video>
-                            <p class="caption">This script hosts cable hangers, receptacles and pull stations to the
-                                selected wall
-                                face and spaces them according to Ontario Building Code (OBC)</p>
-                        </div>
-                        <div class="card">
-
-                            <h3 class="label">Create Levels, Views and Sheets</h3>
-                            <video controls src="vids/Create Levels, Views and Sheets.mp4"></video>
-                            <p class="caption">This script creates a new level at the specified elevation, creates a
-                                floor plan on that level and plots that floor plan on a sheet. It allows the user to
-                                name the level, floor plan and sheet on the user interface. </p>
-                        </div>
-                        <div class="card">
-
-                            <h3 class="label">Tag Family</h3>
-                            <video controls src="vids/Tag Family.mp4"></video>
-                            <p class="caption">This script searched for all the mechanical equipment in the model and
-                                sorts them according to type. Then it applies the correct tag family to each element by
-                                analyzing the category data.</p>
-                        </div>
-                    </div>
-                </div>
-                <h4><a href="https://drive.google.com/open?id=12dnCDTx9QsY8j0OY50erTHkD2yRwHGJ3">Click here to view
-                        more scripts</a></h4>
-                <h4><a href="https://github.com/harsukhdeol">View Github projects</a></h4>
-                <h4><a href="https://codepen.io/harsukhdeol">View CodePen projects</a></h4>
+      <div id="dev">
+        <h2>Development</h2>
+        <div id="revit" class="section">
+          <div>
+            <div class="less">
+              <h3 class="title">3D Software Programmer</h3>
+              <h4>DEI & Associates</h4>
+              <p class="description">
+                I used Dynamo to automate the creation of routine engineering
+                drawings used in HVAC and electrical systems of all buildings.
+                Dynamo is a visual programming language based off Python that
+                uses Revit API to automate drafting and engineering
+                calculations. Below is a sample of the tasks I automated with
+                this program.
+              </p>
             </div>
+            <div class="more">
+              <div class="card">
+                <h3 class="label">Place Air Terminals and VAVs</h3>
+                <video
+                  controls
+                  src="vids/Place Air Terminals and VAV.mp4"
+                ></video>
+                <p class="caption">
+                  This script placed the correct VAV family according to the
+                  specified location and an array of air terminals spaced
+                  envenly in the room with the specified dimensions
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="label">Connecting Pipes and Valves to VAV</h3>
+                <video
+                  controls
+                  src="vids/Connecting Pipes with Valves to VAV.mp4"
+                ></video>
+                <p class="caption">
+                  This script connects hot water supply and return pipes to the
+                  VAV in the specified direction and attaches the correct pipe
+                  accessories and valves.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="label">Fire Alarm Riser</h3>
+                <video controls src="vids/firealarm drafting.mp4"></video>
+                <p class="caption">
+                  This script finds all the fire alarm devices in the model and
+                  organizes them by Level and HVAC zone to create a fire alarm
+                  drafting view
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="label">Wall Devices</h3>
+                <video controls src="vids/wall devices.mp4"></video>
+                <p class="caption">
+                  This script hosts cable hangers, receptacles and pull stations
+                  to the selected wall face and spaces them according to Ontario
+                  Building Code (OBC)
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="label">Create Levels, Views and Sheets</h3>
+                <video
+                  controls
+                  src="vids/Create Levels, Views and Sheets.mp4"
+                ></video>
+                <p class="caption">
+                  This script creates a new level at the specified elevation,
+                  creates a floor plan on that level and plots that floor plan
+                  on a sheet. It allows the user to name the level, floor plan
+                  and sheet on the user interface.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="label">Tag Family</h3>
+                <video controls src="vids/Tag Family.mp4"></video>
+                <p class="caption">
+                  This script searched for all the mechanical equipment in the
+                  model and sorts them according to type. Then it applies the
+                  correct tag family to each element by analyzing the category
+                  data.
+                </p>
+              </div>
+            </div>
+          </div>
+          <h4>
+            <a
+              href="https://drive.google.com/open?id=12dnCDTx9QsY8j0OY50erTHkD2yRwHGJ3"
+              >Click here to view more scripts</a
+            >
+          </h4>
+          <h4>
+            <a href="https://github.com/harsukhdeol">View Github projects</a>
+          </h4>
+          <h4>
+            <a href="https://codepen.io/harsukhdeol">View CodePen projects</a>
+          </h4>
         </div>
-        <div id="design">
-            <h2>Design</h2>
-            <div id="ui" class="section">
-                <div class="less">
-                    <h3 class="title">UI Designs</h3>
-                    <p class="description">Designs of websites and apps</p>
-                </div>
-                <div class="more">
-                    <div class="card">
-                        <img src="img/ui/checkout 1.png">
-                    </div>
-                    <div class="card">
-                        <img src="img/ui/checkout 2.png">
-                    </div>
-                    <div class="card">
-                        <img src="img/ui/iPhone 6-7-8 – 1.png">
-                    </div>
-                    <div class="card">
-                        <img src="img/ui/Title.jpg">
-                    </div>
-                    <div class="card">
-                        <img src="img/ui/firstweb.PNG">
-                    </div>
-                    <div class="card">
-                        <img src="img/ui/landing.jpg">
-                    </div>
-                    <div class="card">
-                        <img src="img/ui/calc2.jpg">
-                    </div>
-                    <div class="card">
-                        <img src="img/ui/checkout.jpg">
-                    </div>
-
-                </div>
+      </div>
+      <div id="design">
+        <h2>Design</h2>
+        <div id="ui" class="section">
+          <div class="less">
+            <h3 class="title">UI Designs</h3>
+            <p class="description">Designs of websites and apps</p>
+          </div>
+          <div class="more">
+            <div class="card">
+              <img src="img/ui/checkout 1.png" />
             </div>
-            <div id="client" class="section">
-                <div class="less">
-                    <h3 class="title">Client work</h3>
-                    <p class="description">Designs and posters created for clubs and organizations</p>
-                </div>
-                <div class="more">
-                    <div class="card">
-                        <img src="img/client/deca 1.PNG">
-                    </div>
-                    <div class="card">
-                        <img src="img/client/deca2.PNG">
-                    </div>
-                    <div class="card">
-                        <img src="img/client/deca_logo.jpg">
-                    </div>
-                    <div class="card">
-                        <img src="img/client/yearbook.jpg">
-                    </div>
-                    <div class="card">
-                        <img src="img/client/finanza1.PNG">
-                    </div>
-                    <div class="card">
-                        <img src="img/client/hack1.PNG">
-                    </div>
-                    <div class="card">
-                        <img src="img/client/hack2.PNG"">
-                            </div>
-                        <div class=" card">
-                        <img src="img/client/hack3.PNG">
-                    </div>
-                    <div class="card">
-                        <img src="img/client/hack4.PNG">
-                    </div>
-                    <div class="card">
-                        <img src="img/client/lionsbyte.PNG">
-                    </div>
-                </div>
-
+            <div class="card">
+              <img src="img/ui/checkout 2.png" />
             </div>
-            <div id="art" class="section">
-                <div class="less">
-                    <h3 class="title">Digital Art</h3>
-                    <p class="description">Personal art and illustrations created with Adobe Photoshop and
-                        Illustrator
-                    </p>
-                </div>
-                <div class="more">
-
-                    <div class="card">
-                        <img src="img/art/FLOWERPOWER.jpg">
-                    </div>
-                    <div class=" card">
-                        <img src="img/art/done.jpg">
-                    </div>
-
-                    <div class=" card">
-                        <img src="img/art/eve.jpg">
-                    </div>
-                    <div class=" card">
-                        <img src="img/art/flo.jpg">
-                    </div>
-                    <div class=" card">
-                        <img src="img/art/mobile.jpg">
-                    </div>
-                    <div class=" card">
-                        <img src="img/art/neon.jpg">
-                    </div>
-                    <div class=" card">
-                        <img src="img/art/win.jpg">
-                    </div>
-                    <div class=" card">
-                        <img src="img/art/statue.jpg">
-                    </div>
-                    <div class=" card">
-                        <img src="img/art/drop.png">
-                    </div>
-                    <h4><a href="https://www.instagram.com/goldencentaur/">Click to view more artwork</a></h4>
-                </div>
+            <div class="card">
+              <img src="img/ui/iPhone 6-7-8 – 1.png" />
             </div>
+            <div class="card">
+              <img src="img/ui/Title.jpg" />
+            </div>
+            <div class="card">
+              <img src="img/ui/firstweb.PNG" />
+            </div>
+            <div class="card">
+              <img src="img/ui/landing.jpg" />
+            </div>
+            <div class="card">
+              <img src="img/ui/calc2.jpg" />
+            </div>
+            <div class="card">
+              <img src="img/ui/checkout.jpg" />
+            </div>
+          </div>
         </div>
+        <div id="client" class="section">
+          <div class="less">
+            <h3 class="title">Client work</h3>
+            <p class="description">
+              Designs and posters created for clubs and organizations
+            </p>
+          </div>
+          <div class="more">
+            <div class="card">
+              <img src="img/client/deca 1.PNG" />
+            </div>
+            <div class="card">
+              <img src="img/client/deca2.PNG" />
+            </div>
+            <div class="card">
+              <img src="img/client/deca_logo.jpg" />
+            </div>
+            <div class="card">
+              <img src="img/client/yearbook.jpg" />
+            </div>
+            <div class="card">
+              <img src="img/client/finanza1.PNG" />
+            </div>
+            <div class="card">
+              <img src="img/client/hack1.PNG" />
+            </div>
+            <div class="card">
+              <img src="img/client/hack2.PNG"">
+            </div>
+            <div class="card">
+              <img src="img/client/hack3.PNG" />
+            </div>
+            <div class="card">
+              <img src="img/client/hack4.PNG" />
+            </div>
+            <div class="card">
+              <img src="img/client/lionsbyte.PNG" />
+            </div>
+          </div>
+        </div>
+        <div id="art" class="section">
+          <div class="less">
+            <h3 class="title">Digital Art</h3>
+            <p class="description">
+              Personal art and illustrations created with Adobe Photoshop and
+              Illustrator
+            </p>
+          </div>
+          <div class="more">
+            <div class="card">
+              <img src="img/art/FLOWERPOWER.jpg" />
+            </div>
+            <div class="card">
+              <img src="img/art/done.jpg" />
+            </div>
+
+            <div class="card">
+              <img src="img/art/eve.jpg" />
+            </div>
+            <div class="card">
+              <img src="img/art/flo.jpg" />
+            </div>
+            <div class="card">
+              <img src="img/art/mobile.jpg" />
+            </div>
+            <div class="card">
+              <img src="img/art/neon.jpg" />
+            </div>
+            <div class="card">
+              <img src="img/art/win.jpg" />
+            </div>
+            <div class="card">
+              <img src="img/art/statue.jpg" />
+            </div>
+            <div class="card">
+              <img src="img/art/drop.png" />
+            </div>
+            <h4>
+              <a href="https://www.instagram.com/goldencentaur/"
+                >Click to view more artwork</a
+              >
+            </h4>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
