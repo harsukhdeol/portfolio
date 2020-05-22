@@ -286,8 +286,26 @@ h3 {
           box-shadow: 0 0 30px -10px rgba(0, 0, 0, 0.2);
 }
 
-#projects {
+#experience {
   background: linear-gradient(-135deg, #b1a1f5, #ffffff);
+}
+
+#experience h2 {
+  position: relative;
+  top: 25vh;
+}
+
+#experience ul {
+  list-style-type: circle;
+}
+
+#experience div {
+  margin: 0 20%;
+  padding: 2% 0 0 0;
+}
+
+#projects {
+  background: linear-gradient(-30deg, #fbd1f1, #fff8f3);
   overflow: hidden;
 }
 
@@ -309,7 +327,7 @@ h3 {
 }
 
 #text a {
-  background-color: #b1a1f5;
+  background-color: #f0d2e1;
   color: white;
   font-weight: bold;
   padding: 0px 30px;
@@ -416,34 +434,34 @@ h3 {
 }
 
 #blob {
-  background-image: url("img/menu/blob.PNG");
+  background-image: url("img/blob.png");
 }
 
 #first {
-  background-image: url("img/menu/firstweb.PNG");
+  background-image: url("img/ui/firstweb.png");
 }
 
 #menu1 {
-  background-image: url("img/menu/menu.PNG");
+  background-image: url("img/menu.png");
 }
 
 #room {
   background-position: 50% 30%;
-  background-image: url("img/menu/room.PNG");
+  background-image: url("img/room.png");
 }
 
 #revit {
-  background-image: url("img/menu/revit.PNG");
+  background-image: url("img/revit.png");
   background-position: 50% 20%;
 }
 
 #fashion {
-  background-image: url("img/menu/fashion.PNG");
+  background-image: url("img/fashion.png");
 }
 
 #services {
   height: 700px;
-  background: linear-gradient(-30deg, #fbd1f1, #fff8f3);
+  background: linear-gradient(120deg, #fbf1d1, #fac2aa);
 }
 
 #services h2 {
@@ -760,7 +778,8 @@ span {
   background: linear-gradient(120deg, #fbf1d1, #fac2aa);
 }
 
-#education h2, #education h3 {
+#education h2,
+#education h3 {
   -webkit-transform: none;
           transform: none;
 }
@@ -849,8 +868,7 @@ span {
   -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
   transition: background-color 0.5s, transform 0.5s ease-out;
   transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
-  transition: background-color 0.5s, transform 0.5s ease-out,
- -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
 }
 
 .email {

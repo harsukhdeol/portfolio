@@ -26,14 +26,16 @@ function visible(el) {
 }
 function scroll(e) {
   if (e.clientX > width * 0.6) {
-    menu.style.transform = `translateX(${-i *
-      1.73}px) translateY(${i}px)  rotate(60deg) skewY(-30deg) scaleY(0.864)`;
+    menu.style.transform = `translateX(${
+      -i * 1.73
+    }px) translateY(${i}px)  rotate(60deg) skewY(-30deg) scaleY(0.864)`;
     if (i < 100) {
       i += 10;
     }
   } else if (e.clientX < width * 0.4) {
-    menu.style.transform = ` translateX(${-i *
-      1.73}px) translateY(${i}px)  rotate(60deg) skewY(-30deg) scaleY(0.864)`;
+    menu.style.transform = ` translateX(${
+      -i * 1.73
+    }px) translateY(${i}px)  rotate(60deg) skewY(-30deg) scaleY(0.864)`;
     if (i > -500) {
       i -= 10;
     }
@@ -42,8 +44,8 @@ function scroll(e) {
 var slide = 0;
 var scrollCount = 0;
 var offset = main.offsetTop;
-const [about, projects, services, education, contact] = [
-  ...document.getElementsByClassName("section")
+const [about, experience, projects, services, contact] = [
+  ...document.getElementsByClassName("section"),
 ];
 
 let dir = 0;
@@ -74,12 +76,13 @@ content.addEventListener("mousewheel", function (e) {
   update([...welcome.children][1], 20, 0.3, e);
   update([...about.children][1], 3, 0.15, e);
   update([...about.children][0], 5, 0.15, e);
+  update([...experience.children][0], 5, 0.15, e);
 
   update([...projects.children][0], 5, 0.15, e);
 
   update([...contact.children][0], 15, 0.25, e);
   update([...contact.children][1], 10, 0.25, e);
-  [...services.children].forEach(p => update(p, 10, 0.15, e));
+  [...services.children].forEach((p) => update(p, 10, 0.15, e));
 
   if (Math.abs(welcome.getBoundingClientRect().top) < offset) {
     content.style = "overflow-y: none";
@@ -103,15 +106,14 @@ content.addEventListener("mousewheel", function (e) {
 
 projects.addEventListener("mouseover", function (e) {
   if (i >= -500 && i <= 100) {
-    if (e.clientX < (projects.offsetWidth / 2)) {
-
+    if (e.clientX < projects.offsetWidth / 2) {
       i -= 5;
     } else {
-
       i += 5;
     }
-    menu.style.transform = ` translateX(${-i *
-      1.73}px) translateY(${i}px)  rotate(60deg) skewY(-30deg) scaleY(0.864)`;
+    menu.style.transform = ` translateX(${
+      -i * 1.73
+    }px) translateY(${i}px)  rotate(60deg) skewY(-30deg) scaleY(0.864)`;
   } else if (i > 100) {
     i = 100;
   } else {
@@ -166,12 +168,12 @@ const grid = document.getElementById("grid");
 const slides = [
   document.querySelector(".prev"),
   document.querySelector(".center"),
-  document.querySelector(".next")
+  document.querySelector(".next"),
 ];
 
 grid.addEventListener("mouseover", function () {
-  cards.forEach(slide => (slide.style = "animation-play-state: paused;"));
+  cards.forEach((slide) => (slide.style = "animation-play-state: paused;"));
 });
 grid.addEventListener("mouseout", function () {
-  cards.forEach(slide => (slide.style = "animation-play-state: play;"));
+  cards.forEach((slide) => (slide.style = "animation-play-state: play;"));
 });

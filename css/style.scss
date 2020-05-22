@@ -221,13 +221,13 @@ h3 {
     padding: 2% 0 0 0;
     text-align: justify;
   }
-  #resume{
+  #resume {
     display: flex;
     justify-content: center;
   }
   a {
     background-color: $darkblue;
-   
+
     color: white;
     font-weight: bold;
     padding: 0px 30px;
@@ -239,8 +239,23 @@ h3 {
     }
   }
 }
-#projects {
+#experience {
   background: linear-gradient(-135deg, #b1a1f5, #ffffff);
+
+  h2 {
+    position: relative;
+    top: 25vh;
+  }
+  ul {
+    list-style-type: circle;
+  }
+  div {
+    margin: 0 20%;
+    padding: 2% 0 0 0;
+  }
+}
+#projects {
+  background: linear-gradient(-30deg, #fbd1f1, #fff8f3);
   overflow: hidden;
 }
 #text {
@@ -258,7 +273,7 @@ h3 {
     margin: 0;
   }
   a {
-    background-color: $darkpurple;
+    background-color: #f0d2e1;
     color: white;
 
     font-weight: bold;
@@ -366,7 +381,7 @@ $offset: 100vw;
 }
 #services {
   height: 700px;
-  background: linear-gradient(-30deg, #fbd1f1, #fff8f3);
+  background: linear-gradient(120deg, #fbf1d1, #fac2aa);
   h2 {
     margin: 0 0 2em 0;
   }
@@ -559,18 +574,18 @@ span {
     width: 100%;
   }
 }
-#education{
-  h2, h3{
+#education {
+  h2,
+  h3 {
     transform: none;
-
   }
-  background:   linear-gradient(120deg, #fbf1d1, #fac2aa);
-ul {
-  margin: auto;
-}
-li {
-  margin: 0 0 0 20%;
-}
+  background: linear-gradient(120deg, #fbf1d1, #fac2aa);
+  ul {
+    margin: auto;
+  }
+  li {
+    margin: 0 0 0 20%;
+  }
 }
 #contact {
   //background: linear-gradient(-10deg, #ffffff, #ffeee2);
