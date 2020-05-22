@@ -26,7 +26,7 @@
 }
 
 header {
-  padding: 10% 0;
+  padding: 50px 0;
   background: #e9e9e9;
   margin: 0 0 5% 0;
 }
@@ -39,36 +39,10 @@ header h1 {
   font-weight: 500;
 }
 
-header h2 {
-  font-size: 1.5rem;
-  color: gray;
-  font-weight: 500;
-  margin: 0 20px;
-}
-
-header a {
-  text-decoration: none;
-}
-
-header div {
-  margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .container {
   max-width: 1000px;
   width: 90%;
   margin: auto;
-}
-
-h2 {
-  font-size: 3rem;
-  padding: 2rem 0 0 0;
 }
 
 .title {
@@ -89,23 +63,23 @@ h2 {
   padding: 0.5rem 1.5rem 2rem 1.5rem;
 }
 
-#dev .more {
+.container .more {
   padding: 0 1.5rem;
 }
 
-#dev .label {
+.container .label {
   padding: 0.8rem 0;
 }
 
-#dev .caption {
+.container .caption {
   margin: 5%;
 }
 
-#dev .card {
+.container .card {
   margin: 5vh auto;
 }
 
-#dev video {
+.container video {
   width: 80%;
   height: auto;
   margin: 0 10%;
