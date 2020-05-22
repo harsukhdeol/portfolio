@@ -121,9 +121,9 @@ projects.addEventListener("mouseover", function (e) {
   }
 });
 // When the user scrolls the page, execute myFunction
-content.onscroll = function () {
+/* content.onscroll = function () {
   myFunction();
-};
+}; */
 
 // Get the header
 var header = [...document.getElementsByTagName("header")][0];
@@ -132,13 +132,13 @@ var header = [...document.getElementsByTagName("header")][0];
 var sticky = header.offsetTop;
 
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
+/* function myFunction() {
   if (content.pageYOffset > sticky) {
     header.classList.add("sticky");
   } else {
     header.classList.remove("sticky");
   }
-}
+} */
 var cards = [...document.getElementsByClassName("card")];
 
 /* console.log(cards);
