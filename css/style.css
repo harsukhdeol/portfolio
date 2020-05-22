@@ -562,22 +562,22 @@ h3 {
 .prev {
   -webkit-transform: translate3d(5vw, 0, -30vw);
           transform: translate3d(5vw, 0, -30vw);
-  -webkit-animation: leftCard 8s ease-in-out infinite both;
-          animation: leftCard 8s ease-in-out infinite both;
+  -webkit-animation: leftCard 10s ease-in-out infinite both;
+          animation: leftCard 10s ease-in-out infinite both;
 }
 
 .next {
   -webkit-transform: translate3d(55vw, 0, -30vw);
           transform: translate3d(55vw, 0, -30vw);
-  -webkit-animation: rightCard 8s ease-in-out infinite both;
-          animation: rightCard 8s ease-in-out infinite both;
+  -webkit-animation: rightCard 10s ease-in-out infinite both;
+          animation: rightCard 10s ease-in-out infinite both;
 }
 
 .center {
   -webkit-transform: translate3d(30vw, -5vw, 0);
           transform: translate3d(30vw, -5vw, 0);
-  -webkit-animation: centerCard 8s ease-in-out infinite both;
-          animation: centerCard 8s ease-in-out infinite both;
+  -webkit-animation: centerCard 10s ease-in-out infinite both;
+          animation: centerCard 10s ease-in-out infinite both;
 }
 
 @-webkit-keyframes centerCard {

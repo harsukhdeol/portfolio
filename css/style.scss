@@ -460,19 +460,19 @@ $offset: 100vw;
 .prev {
   //transform: rotateY(60deg);
   transform: translate3d(5vw, 0, -30vw);
-  animation: leftCard 8s ease-in-out infinite both;
+  animation: leftCard 10s ease-in-out infinite both;
 }
 .next {
   //transform: rotateY(-60deg);
   transform: translate3d(55vw, 0, -30vw);
-  animation: rightCard 8s ease-in-out infinite both;
+  animation: rightCard 10s ease-in-out infinite both;
 
   // left: 60vw;
 }
 .center {
   // transform: rotateY(0) translateZ(10vw);
   transform: translate3d(30vw, -5vw, 0);
-  animation: centerCard 8s ease-in-out infinite both;
+  animation: centerCard 10s ease-in-out infinite both;
 }
 @keyframes centerCard {
   0%,
