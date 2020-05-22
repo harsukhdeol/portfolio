@@ -472,7 +472,7 @@ h3 {
 }
 
 #first {
-  background-image: url("img/ui/firstweb.png");
+  background-image: url("assets/img/ui/firstweb.PNG");
 }
 
 #menu1 {
@@ -490,7 +490,7 @@ h3 {
 }
 
 #fashion {
-  background-image: url("img/fashion.png");
+  background-image: url("assets/img/fashion.PNG");
 }
 
 #services {
@@ -505,6 +505,11 @@ h3 {
 #services > * {
   position: relative;
   top: 58vh;
+}
+
+#services img {
+  width: 280px;
+  height: auto;
 }
 
 #grid {

@@ -386,7 +386,7 @@ $offset: 100vw;
   background-image: url("img/blob.png");
 }
 #first {
-  background-image: url("img/ui/firstweb.png");
+  background-image: url("assets/img/ui/firstweb.PNG");
 }
 #menu1 {
   background-image: url("img/menu.png");
@@ -400,7 +400,7 @@ $offset: 100vw;
   background-position: 50% 20%;
 }
 #fashion {
-  background-image: url("img/fashion.png");
+  background-image: url("assets/img/fashion.PNG");
 }
 #services {
   height: 700px;
@@ -411,6 +411,10 @@ $offset: 100vw;
   > * {
     position: relative;
     top: 58vh;
+  }
+  img {
+    width: 280px;
+    height: auto;
   }
 }
 #grid {
