@@ -110,29 +110,4 @@ h2 {
   height: auto;
   margin: 0 10%;
 }
-
-#design .more {
-  padding: 1.5rem;
-  max-width: 900px;
-  margin: 0 auto;
-  height: 100%;
-  display: -ms-grid;
-  display: grid;
-  grid-auto-flow: row;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-}
-
-#design .card {
-  margin: 1%;
-  padding: 10px;
-  height: 100%;
-  width: 30vw;
-  display: inline-block;
-}
-
-#design img {
-  width: 30vw;
-  height: auto;
-}
 /*# sourceMappingURL=projects.css.map */

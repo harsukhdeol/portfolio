@@ -467,8 +467,8 @@ h3 {
   left: 100px;
 }
 
-#blob {
-  background-image: url("img/blob.png");
+#mood {
+  background-image: url("../assets//img/dev/moodboard.png");
 }
 
 #first {
