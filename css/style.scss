@@ -448,7 +448,7 @@ $offset: 100vw;
 }
 .card {
   width: 300px;
-  height: 420px;
+  height: 450px;
 
   border-radius: 2%;
   box-shadow: 0 10px 20px -5px black;
@@ -619,6 +619,9 @@ span {
   }
 }
 #contact {
+  padding: 50px 0;
+  margin: 1px 0;
+  height: 85vh;
   //background: linear-gradient(-10deg, #ffffff, #ffeee2);
   > * {
     position: relative;
@@ -742,34 +745,40 @@ footer {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 769px) {
   h1 {
     font-size: 4rem;
   }
-
-  /*  .section {
+  h2 {
+    font-size: 2rem;
+  }
+  .section {
     height: auto;
+    padding: 50px 0;
   }
   #about {
-    height: auto;
-    > * {
-      top: 0;
-    }
-    h2,
-    h3 {
-      position: relative;
-      top: 10vh;
+    p {
+      font-size: 0.8rem;
     }
   }
-  #experience {
+  #menu {
+    transform: rotate(60deg) skewY(-30deg) scaleY(0.864) scale(0.8);
+    top: -700px;
+    left: 250px;
+  }
+  #grid {
+    transform: scale(0.8);
+    left: -3vw;
+  }
+  #services h2 {
+    margin: 0 0 2em 0;
+  }
+  #contact {
+    padding: 0;
     > * {
-      top: 0;
+      top: 160vh;
     }
   }
-  #projects {
-    height: 85vh;
-  } */
-  /*   #contact {
-    height: 62vh;
-  } */
+}
+@media (max-width: 300px) {
 }
