@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/style.css" />
   <link rel="icon" type="image/png"  href="favicon-16x16.png">
 
   <title>Harsukh Deol</title>
@@ -19,11 +19,13 @@
   <div id="main">
 
 
+<div class="outer-labels">
+
 
     <div id="name">Harsukh Deol</div>
     <div id="design">Designer</div>
     <div id="dev">Developer</div>
-
+</div>
     <header id="navbar">
       <a href="#about">About</a>
       <a href="#projects">Development</a>
@@ -42,27 +44,101 @@
         <h2>About</h2>
         <h3>Hi, I'm Harsukh 👋</h3>
         <p>
-          I'm a web and graphic designer from Toronto, Canada. I am also a Mechanical Engineering student at the
-          University of Waterloo. I love working with
-          people to transform ideas into tangible products. My
-          specialties are front-end development, <strong>custom CSS</strong> and <strong>Javascript
-            animations</strong>, vector <strong> illustrations </strong> and graphic art in Photoshop.
+          I'm a front-end developer and designer from Toronto, Canada. 
+          I love to bring ideas to life with code and design softwares. My goal is to always build 
+          impressive and performant applications
+          that make you go <strong>
+            "Wow, how did you make that?"
+          </strong>
+         </p>
+           <p>
+           Currently, I'm focusing on developing 3D experiences with Three.js and 
+           eventually bring them to life with AR/VR. My dream is to use my 3D design and development skills
+           to build awe-inspiring AR/VR experiences.
+           </p>
+           <p>A few technologies I've been working with: </p>
+           <p>
+           <strong>Dev:</strong>   JavaScript (ES6), React, Node.js, MongoDB
+           </p> 
+           <p>
+             <strong>
+               Design: 
+             </strong>Figma, XD, After Effects, Blender, Illustrator
         </p>
         <div id="resume">
-          <a href="Harsukh Deol (1).pdf">Resume</a>
+          <a href="assets/Harsukh Deol.pdf">Resume</a>
         </div>
       </div>
+      <div class="section" id="experience">
 
+        <h2>Experience</h2>
+        <div id="tr">
+          <div class="job-info">
+            <a href="work.html#tr"> 
+             <span class="role">User Experience Developer</span>
+         <span class="company">@ Thomson Reuters</span> 
+            </a>
+          
+         <span class="date">Jan 2020 - Present</span>  
+          </div>
+         
+<ul>
+  <li>
+    Developed and shipped Obfuscation App, with React and Bootstrap, which removes sensitive info from documents so data can be leveraged for machine learning purposes
+</li> Used Docker and Postman to code async fetch requests to connect front-end to server 
+<li>Leveraged Electron, Python Tkinter and React to develop and design desktop apps
+</li><li> Directed stakeholder interviews and iterated on wireframes to meet client requirements
+</li><li> Designed company assets with XD, Illustrator and Figma, to be used by 1500+ employees
+</li><li> Collaborated in an agile environment remotely with multi-disciplinary teams of engineers, designers, users and stakeholders on a daily basis from all over the world
+  </li>
+</ul>
+        </div>
+ <div id="dei">
+   <div class="job-info">
+     <a href="work.html#dei">
+       <span class="role">3D Graphics Developer</span>
+          <span class="company">@ DEI &  Inc.</span> 
+     </a>
+     
+          <span class="date">May 2019- Aug 2019</span>
+      
+
+   </div>
+         
+        <ul>
+          <li>
+            Developed scripts with Python to automatically generate HVAC and electrical systems,  creates repeatable components that can be leveraged by engineers 
+          </li>
+          <li> 
+            Used daily by Revit DEI & Associates engineers, saves 20+ hours per project
+             </li>
+              <li>
+                Created user interface, which boosted program usage of non-technical teammates 
+
+              </li>
+              <li>Worked independently and problem solved with mechanical and electrical users to troubleshoot and debug code
+          </li>
+        </ul>
+        </div>
+        </div>
       <div class="container">
-        <div class="section" id="projects">
+        <div id="projects">
           <div id="text">
             <h2>Development</h2>
             <p>Here are some of the projects that I have created.</p>
 
-            <a id="profile-link" href=project.html> View Projects</a>
+            <a id="profile-link" href="https://github.com/harsukhdeol"> View Projects</a>
           </div>
 
           <div id="menu">
+            <a href="https://harsukhdeol.github.io/trending-news/">
+              <div class="project-tile">
+                <div class="shadow"></div>
+                <div class="left"></div>
+                <div class="right"></div>
+                <div class="top" id="news"></div>
+              </div>
+            </a>
             <a href="https://harsukhdeol.github.io/me/">
               <div class="project-tile">
                 <div class="shadow"></div>
@@ -71,14 +147,15 @@
                 <div class="top" id="first"></div>
               </div>
             </a>
-            <a href="project.html#revit">
+            <a href="https://github.com/harsukhdeol/moodboard">
               <div class="project-tile">
                 <div class="shadow"></div>
                 <div class="left"></div>
                 <div class="right"></div>
-                <div class="top" id="revit"></div>
+                <div class="top" id="mood"></div>
               </div>
             </a>
+           
             <a href="https://fashion-store.netlify.com">
               <div class="project-tile">
                 <div class="shadow"></div>
@@ -87,80 +164,71 @@
                 <div class="top" id="fashion"></div>
               </div>
             </a>
-            <a href="isometric.html">
-              <div class="project-tile">
-                <div class="shadow"></div>
-                <div class="left"></div>
-                <div class="right"></div>
-                <div class="top" id="room"></div>
-              </div>
-            </a>
+           
 
-            <a href="https://codepen.io/harsukhdeol/full/EzOgBb">
+            <a href="https://codepen.io/harsukhdeol/full/EzGYjw">
               <div class="project-tile">
                 <div class="shadow"></div>
                 <div class="left"></div>
                 <div class="right"></div>
-                <div class="top" id="menu1"></div>
+                <div class="top" id="nature"></div>
               </div>
             </a>
-            <a href="https://codepen.io/harsukhdeol/full/vwPbZd">
+            <a href="https://github.com/harsukhdeol/Recipe-app">
               <div class="project-tile">
                 <div class="shadow"></div>
                 <div class="left"></div>
                 <div class="right"></div>
-                <div class="top" id="blob"></div>
+                <div class="top" id="recipe"></div>
               </div>
             </a>
 
           </div>
         </div>
-        <!--   </div> -->
 
-        <div class="section" id="services">
+        <div id="services">
           <h2>Design</h2>
           <div class="icon-cards">
             <div id="grid">
               <div class="card prev" id="art">
                 <div class="face back">
-                  <div class="img"></div>
+                  <img src="assets/img/webgl.png" alt="">
                   <p>
-                    Personal projects to experiment with different art styles and improve my techniques
+                    A collection of projects I have built using Three.js to learn how to create impressive visualizations on the web
                   </p>
-                  <a href="project.html#art">View ></a>
+                  <a href="https://harsukhdeol.github.io/web-graphics-portfolio/#three">View</a>
                 </div>
                 <div class="face front">
-                  <span>Graphic Art and Illustrations</span>
+                  <span>WebGL with Three.js</span>
                 </div>
               </div>
               <div class="card center" id="graphic">
                 <div class="face back">
-                  <div class="img"></div>
+                 <img src="assets/img/room.png" alt="">
                   <p>
-                    Designs and posters I have created for teams and organizations
-                  </p>
-                  <a href="project.html#client">View></a>
+Projects I have created while learning 3D CSS animations and SVG filters to discover the possibilities of web graphics                </p>
+                  <a href="https://harsukhdeol.github.io/web-graphics-portfolio/#css">View</a>
                 </div>
                 <div class="face front">
-                  <span>Client Work</span>
+                  <span>CSS and SVG</span>
                 </div>
               </div>
               <div class="card next" id="web">
                 <div class="face back">
-                  <div class="img"></div>
+                <img src="assets/img/2.jpg" alt="">
                   <p>
-                    Designs made for web use
+                    2D and 3D animations I have created in After Effects and Blender to learn animation and 3D.
                   </p>
-                  <a href="project.html#ui">View></a>
+                  <a href="https://harsukhdeol.github.io/web-graphics-portfolio/#blender">View</a>
                 </div>
                 <div class="face front">
-                  <span>UI Designs </span>
+                  <span>Motion Design</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="section" id="education">
+      <!--   <div class="section" id="education">
           <h2>Education</h2>
           <h3>Online Course Certifications</h3>
           <ul id="list">
@@ -189,11 +257,9 @@
             <li>The Design of Everyday Things</li>
           </ul>
 
-        </div>
-        <div class="section" id="contact">
+        </div> -->
+        <div  id="contact">
           <h2>Contact</h2>
-          <!--         <p>Hit me up, I'll follow you back</p>
- -->
           <ul class="soc">
             <li>
               <a class="icon email" href="mailto:harsukhkdeol@gmail.com" title="Email">
@@ -216,7 +282,7 @@
               </a>
             </li>
             <li>
-              <a class="icon instagram" href="https://www.instagram.com/goldencentaur/?hl=en" title="Instagram">
+              <a class="icon instagram" href="https://www.instagram.com/harsukh.deol/" title="Instagram">
                 <div class="ir">
                   <svg viewbox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
                     <path
@@ -243,10 +309,16 @@
             </li>
           </ul>
         </div>
-      </div>
+      </div>  
+      <footer>
+      <p>Website designed and developed by Harsukh Deol - no libraries or frameworks used</p>
+      <p>Copyright Harsukh Deol 2020</p>
+    </footer>
     </div>
-    <script src="header.js"></script>
-    <script src="project.js"></script>
+
+  
+    <script src="js/header.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
