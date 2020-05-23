@@ -272,10 +272,10 @@ h3 {
     /*   font-weight: 500; */
     color: darken($darkpurple, 10%);
   }
-  h2 {
+  /* h2 {
     position: relative;
     top: 25vh;
-  }
+  } */
   ul {
     list-style-type: circle;
     font-size: 0.8rem;
@@ -761,6 +761,19 @@ footer {
     p {
       font-size: 0.8rem;
     }
+    h2,
+    h3 {
+      top: 0;
+    }
+  }
+  #experience {
+    h2,
+    h3 {
+      top: 0;
+    }
+  }
+  #text {
+    top: 0;
   }
   #menu {
     transform: rotate(60deg) skewY(-30deg) scaleY(0.864) scale(0.8);
@@ -777,7 +790,7 @@ footer {
   #contact {
     padding: 0;
     > * {
-      top: 160vh;
+      top: 0vh;
     }
   }
 }
@@ -818,6 +831,7 @@ footer {
       text-align: center;
     }
   }
+
   #experience > div,
   #about p {
     margin: 0 10%;

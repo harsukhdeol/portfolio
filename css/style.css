@@ -301,6 +301,10 @@ h3 {
 
 #experience {
   background: linear-gradient(-135deg, #b1a1f5, #ffffff);
+  /* h2 {
+    position: relative;
+    top: 25vh;
+  } */
 }
 
 #experience h2 {
@@ -335,11 +339,6 @@ h3 {
 #experience .company {
   /*   font-weight: 500; */
   color: #8b73f0;
-}
-
-#experience h2 {
-  position: relative;
-  top: 25vh;
 }
 
 #experience ul {
@@ -1004,6 +1003,17 @@ footer p {
   #about p {
     font-size: 0.8rem;
   }
+  #about h2,
+  #about h3 {
+    top: 0;
+  }
+  #experience h2,
+  #experience h3 {
+    top: 0;
+  }
+  #text {
+    top: 0;
+  }
   #menu {
     -webkit-transform: rotate(60deg) skewY(-30deg) scaleY(0.864) scale(0.8);
             transform: rotate(60deg) skewY(-30deg) scaleY(0.864) scale(0.8);
@@ -1022,7 +1032,7 @@ footer p {
     padding: 0;
   }
   #contact > * {
-    top: 160vh;
+    top: 0vh;
   }
 }
 
