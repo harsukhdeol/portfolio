@@ -1053,8 +1053,9 @@ footer p {
         flex-wrap: wrap;
   }
   #main {
+    position: fixed;
     width: 84vw;
-    height: 80vh;
+    height: calc(100% - 120px);
     top: 4vh;
     left: 8vw;
   }
