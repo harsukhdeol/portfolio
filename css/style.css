@@ -529,7 +529,7 @@ h3 {
 
 #services > * {
   position: relative;
-  top: 65vh;
+  top: 55vh;
 }
 
 #services img {
@@ -845,7 +845,7 @@ span {
 
 #contact > * {
   position: relative;
-  top: 120vh;
+  top: 150vh;
 }
 
 #contact h2 {
