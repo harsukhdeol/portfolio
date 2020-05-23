@@ -174,7 +174,7 @@ p {
 
 #navbar a {
   padding: 1em 0;
-  margin: 0 2em;
+  margin: 0 2%;
   color: #b2aeae;
   text-transform: uppercase;
   font-weight: bold;
@@ -990,6 +990,12 @@ footer p {
   }
 }
 
+@media (max-width: 950px) {
+  #main {
+    height: calc(100% - 100px);
+  }
+}
+
 @media (max-width: 769px) {
   h1 {
     font-size: 4rem;
@@ -1000,9 +1006,6 @@ footer p {
   .section {
     height: auto;
     padding: 50px 0;
-  }
-  #main {
-    height: calc(100% - 140px);
   }
   #about p {
     font-size: 0.8rem;
@@ -1071,6 +1074,7 @@ footer p {
   }
   #main {
     width: 84vw;
+    height: calc(100% - 140px);
     top: 4vh;
     left: 8vw;
   }
