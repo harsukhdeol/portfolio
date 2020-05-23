@@ -98,6 +98,7 @@ header {
   left: 0;
 }
 #main {
+  position: fixed;
   width: 90vw;
   height: 85vh;
   position: fixed;
@@ -815,7 +816,6 @@ footer {
     flex-wrap: wrap;
   }
   #main {
-    position: fixed;
     width: 84vw;
     height: calc(100% - 120px);
     top: 4vh;
