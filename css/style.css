@@ -64,7 +64,7 @@ body {
   top: -1vw;
   letter-spacing: 1em;
   color: gray;
-  font-size: 0.7em;
+  font-size: 0.6rem;
   text-transform: uppercase;
 }
 
@@ -73,7 +73,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 1em;
   color: gray;
-  font-size: 0.7em;
+  font-size: 0.6rem;
   -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl;
@@ -81,7 +81,7 @@ body {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
   top: 35vh;
-  right: 96vw;
+  left: 2vw;
   -webkit-transition: none;
   transition: none;
 }
@@ -90,7 +90,7 @@ body {
   position: fixed;
   letter-spacing: 1em;
   color: gray;
-  font-size: 0.7em;
+  font-size: 0.6rem;
   text-transform: uppercase;
   -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
@@ -1022,6 +1022,61 @@ footer p {
   }
   #contact > * {
     top: 160vh;
+  }
+}
+
+@media (max-width: 425px) {
+  h1 {
+    font-size: 3rem;
+  }
+  #experience span {
+    display: block;
+    text-align: left;
+  }
+  #grid {
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+    left: -15vw;
+  }
+  .outer-labels > * {
+    font-size: 0.5rem !important;
+  }
+  #navbar {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #main {
+    width: 84vw;
+    height: 80vh;
+    top: 4vh;
+    left: 8vw;
+  }
+  #text {
+    width: 70vw;
+  }
+  #text a {
+    width: 100%;
+    margin: 0 20px 0 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: center;
+  }
+  #experience > div,
+  #about p {
+    margin: 0 10%;
+  }
+  .card a {
+    width: 100%;
+    margin: 0 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: center;
   }
 }
 /*# sourceMappingURL=style.css.map */

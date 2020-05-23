@@ -64,7 +64,7 @@ body {
   top: -1vw;
   letter-spacing: 1em;
   color: gray;
-  font-size: 0.7em;
+  font-size: 0.6rem;
   text-transform: uppercase;
 }
 #design {
@@ -72,19 +72,19 @@ body {
   text-transform: uppercase;
   letter-spacing: 1em;
   color: gray;
-  font-size: 0.7em;
+  font-size: 0.6rem;
   writing-mode: vertical-rl;
   text-orientation: sideways;
   transform: rotate(180deg);
   top: 35vh;
-  right: 96vw;
+  left: 2vw;
   transition: none;
 }
 #dev {
   position: fixed;
   letter-spacing: 1em;
   color: gray;
-  font-size: 0.7em;
+  font-size: 0.6rem;
   text-transform: uppercase;
   writing-mode: vertical-rl;
   text-orientation: mixed;
@@ -780,5 +780,50 @@ footer {
     }
   }
 }
-@media (max-width: 300px) {
+@media (max-width: 425px) {
+  h1 {
+    font-size: 3rem;
+  }
+  #experience span {
+    display: block;
+    text-align: left;
+  }
+  #grid {
+    transform: scale(0.6);
+    left: -15vw;
+  }
+  .outer-labels > * {
+    font-size: 0.5rem !important;
+  }
+  #navbar {
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #main {
+    width: 84vw;
+    height: 80vh;
+    top: 4vh;
+    left: 8vw;
+  }
+  #text {
+    width: 70vw;
+    a {
+      width: 100%;
+      margin: 0 20px 0 0;
+
+      box-sizing: border-box;
+      text-align: center;
+    }
+  }
+  #experience > div,
+  #about p {
+    margin: 0 10%;
+  }
+  .card a {
+    width: 100%;
+    margin: 0 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
 }
