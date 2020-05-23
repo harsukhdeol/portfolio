@@ -350,6 +350,7 @@ h3 {
 
 #experience li {
   margin: 0.3rem 0;
+  text-align: justify;
 }
 
 #experience > div {
