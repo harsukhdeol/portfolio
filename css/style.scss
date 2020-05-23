@@ -758,6 +758,9 @@ footer {
     height: auto;
     padding: 50px 0;
   }
+  #main {
+    height: calc(100% - 140px);
+  }
   #about {
     p {
       font-size: 0.8rem;
@@ -775,6 +778,11 @@ footer {
   }
   #text {
     top: 0;
+  }
+  #services {
+    > * {
+      top: 0;
+    }
   }
   #menu {
     transform: rotate(60deg) skewY(-30deg) scaleY(0.864) scale(0.8);
@@ -817,7 +825,7 @@ footer {
   }
   #main {
     width: 84vw;
-    height: calc(100% - 120px);
+
     top: 4vh;
     left: 8vw;
   }

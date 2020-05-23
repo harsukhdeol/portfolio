@@ -1001,6 +1001,9 @@ footer p {
     height: auto;
     padding: 50px 0;
   }
+  #main {
+    height: calc(100% - 140px);
+  }
   #about p {
     font-size: 0.8rem;
   }
@@ -1013,6 +1016,9 @@ footer p {
     top: 0;
   }
   #text {
+    top: 0;
+  }
+  #services > * {
     top: 0;
   }
   #menu {
@@ -1065,7 +1071,6 @@ footer p {
   }
   #main {
     width: 84vw;
-    height: calc(100% - 120px);
     top: 4vh;
     left: 8vw;
   }
