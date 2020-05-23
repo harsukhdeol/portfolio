@@ -850,4 +850,9 @@ footer {
     box-sizing: border-box;
     text-align: center;
   }
+  #contact {
+    > * {
+      top: 30vh;
+    }
+  }
 }
