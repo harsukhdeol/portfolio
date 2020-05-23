@@ -205,18 +205,25 @@ h3 {
 }
 .section {
   /*  scroll-snap-align: start; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
   height: 85vh;
-  padding-top: 50px;
+
+  padding: 50px 0;
   margin: 1px 0;
 }
 #about {
   background: linear-gradient(135deg, #f0edfc, #afbcff);
-  > * {
+  h2,
+  h3 {
     position: relative;
-    top: 20vh;
-  }
-  p {
     top: 10vh;
+  }
+
+  p {
     margin: 0 20%;
     padding: 2% 0 0 0;
     text-align: justify;
@@ -227,6 +234,7 @@ h3 {
   }
   a {
     background-color: $darkblue;
+    margin: 1rem 0;
 
     color: white;
     font-weight: bold;
@@ -240,11 +248,15 @@ h3 {
   }
 }
 #experience {
+  h2 {
+    position: relative;
+    top: 10vh;
+  }
   background: linear-gradient(-135deg, #b1a1f5, #ffffff);
   span {
     text-transform: none;
     font-size: 1rem;
-    margin-right: 0.3rem;
+    margin: 0 0 0 0.3rem;
   }
   .job-info {
     display: flex;
@@ -268,9 +280,10 @@ h3 {
   ul {
     list-style-type: circle;
     font-size: 0.8rem;
+    margin: 1rem 0;
   }
   li {
-    margin: 0.2rem 0;
+    margin: 0.3rem 0;
   }
   > div {
     margin: 0 20%;
@@ -278,6 +291,11 @@ h3 {
   }
 }
 #projects {
+  height: 85vh;
+
+  padding: 50px 0;
+  margin: 1px 0;
+
   background: linear-gradient(-30deg, #fbd1f1, #fff8f3);
   overflow: hidden;
 }
@@ -402,15 +420,19 @@ $offset: 100vw;
 #fashion {
   background-image: url("../assets/img/dev/fashion.PNG");
 }
+
 #services {
-  height: 700px;
+  height: 85vh;
+
+  padding: 50px 0;
+  margin: 1px 0;
   background: linear-gradient(120deg, #fbf1d1, #fac2aa);
   h2 {
     margin: 0 0 2em 0;
   }
   > * {
     position: relative;
-    top: 58vh;
+    top: 65vh;
   }
   img {
     width: 260px;
@@ -425,14 +447,14 @@ $offset: 100vw;
 }
 .card {
   width: 300px;
-  height: 500px;
+  height: 420px;
 
   border-radius: 2%;
   box-shadow: 0 10px 20px -5px black;
   background: white;
   position: absolute;
   p {
-    padding: 2em 0 1rem;
+    padding: 20px 0 1rem;
     margin: 0;
   }
   a {
@@ -707,4 +729,30 @@ footer {
     margin: 0;
   }
 }
-/*@media(min-width: 500px)*/
+@media (max-width: 800px) {
+  .section {
+    height: auto;
+  }
+  #about {
+    height: auto;
+    > * {
+      top: 0;
+    }
+    h2,
+    h3 {
+      position: relative;
+      top: 10vh;
+    }
+  }
+  #experience {
+    > * {
+      top: 0;
+    }
+  }
+  #projects {
+    height: 85vh;
+  }
+  #contact {
+    height: 62vh;
+  }
+}

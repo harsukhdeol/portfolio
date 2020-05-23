@@ -44,9 +44,11 @@ function scroll(e) {
 var slide = 0;
 var scrollCount = 0;
 var offset = main.offsetTop;
-const [about, experience, projects, services, contact] = [
+const [about, experience, contact] = [
   ...document.getElementsByClassName("section"),
 ];
+const projects = document.getElementById("projects");
+const services = document.getElementById("services");
 
 let dir = 0;
 let scrollPos = content.scrollTop;
