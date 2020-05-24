@@ -30,7 +30,7 @@ $darkblue: #99b5ff;
 }
 header {
   padding: 50px 0;
-  background: #e9e9e9;
+  background: $purple;
   margin: 0 0 5% 0;
   h1 {
     text-align: center;
@@ -78,4 +78,10 @@ header {
     height: auto;
     margin: 0 10%;
   }
+}
+h2 {
+  font-size: 2rem;
+}
+h4 {
+  color: $darkpurple;
 }
