@@ -75,7 +75,7 @@ content.addEventListener("mousewheel", function (e) {
   slide += Math.sign(e.wheelDeltaY);
 
   update([...welcome.children][1], 20, 0.3, e);
-  update([...about.children][1], 3, 0.15, e);
+  /*  update([...about.children][1], 3, 0.15, e);
   update([...about.children][0], 5, 0.15, e);
   update([...experience.children][0], 5, 0.15, e);
 
@@ -83,7 +83,7 @@ content.addEventListener("mousewheel", function (e) {
 
   update([...contact.children][0], 15, 0.25, e);
   update([...contact.children][1], 10, 0.25, e);
-  [...services.children].forEach((p) => update(p, 10, 0.15, e));
+  [...services.children].forEach((p) => update(p, 10, 0.15, e)); */
 
   if (Math.abs(welcome.getBoundingClientRect().top) < offset) {
     content.style = "overflow-y: none";

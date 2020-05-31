@@ -237,7 +237,6 @@ h2 {
 
 h3 {
   text-align: center;
-  margin: 5% 0 2% 0;
 }
 
 .section {
@@ -259,14 +258,13 @@ h3 {
   margin: 0;
 }
 
-#about {
-  background: linear-gradient(135deg, #f0edfc, #afbcff);
+.section h2,
+.section h3 {
+  padding-top: 1rem;
 }
 
-#about h2,
-#about h3 {
-  position: relative;
-  top: 10vh;
+#about {
+  background: linear-gradient(135deg, #f0edfc, #afbcff);
 }
 
 #about p {
@@ -302,15 +300,6 @@ h3 {
 
 #experience {
   background: linear-gradient(-135deg, #b1a1f5, #ffffff);
-  /* h2 {
-    position: relative;
-    top: 25vh;
-  } */
-}
-
-#experience h2 {
-  position: relative;
-  top: 10vh;
 }
 
 #experience span {
@@ -370,7 +359,7 @@ h3 {
   position: relative;
   width: 50vw;
   left: 10%;
-  top: 50vh;
+  top: 30vh;
 }
 
 #text h2 {
@@ -419,7 +408,6 @@ h3 {
 }
 
 .project-tile:hover .top {
-  /*         box-shadow: 0 0 30px 15px, rgba(38, 39, 73, 0.1);*/
   -webkit-box-shadow: 100px 100px 40px -30px #151029;
           box-shadow: 100px 100px 40px -30px #151029;
 }
@@ -517,7 +505,7 @@ h3 {
 }
 
 #services {
-  height: 85vh;
+  height: 90vh;
   padding: 50px 0;
   margin: 1px 0;
   background: linear-gradient(120deg, #fbf1d1, #fac2aa);
@@ -525,11 +513,7 @@ h3 {
 
 #services h2 {
   margin: 0 0 3em 0;
-}
-
-#services > * {
-  position: relative;
-  top: 55vh;
+  top: 15vh;
 }
 
 #services img {
@@ -546,6 +530,7 @@ h3 {
           transform-style: preserve-3d;
   position: relative;
   left: 1vw;
+  top: -5vh;
 }
 
 .card {
@@ -845,7 +830,7 @@ span {
 
 #contact > * {
   position: relative;
-  top: 150vh;
+  top: 30vh;
 }
 
 #contact h2 {
@@ -853,7 +838,6 @@ span {
 }
 
 #contact p {
-  top: 140vh;
   text-align: center;
 }
 
@@ -993,6 +977,9 @@ footer p {
 @media (max-width: 950px) {
   #main {
     height: calc(100% - 100px);
+  }
+  .section {
+    height: auto;
   }
 }
 
