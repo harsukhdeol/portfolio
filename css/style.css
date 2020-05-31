@@ -159,6 +159,8 @@ p {
 }
 
 #navbar {
+  padding: 0 2vw;
+  margin: 0 2vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -169,7 +171,7 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 100vw;
+  width: 92vw;
 }
 
 #navbar a {

@@ -141,11 +141,13 @@ p {
   line-height: 1.5em;
 }
 #navbar {
+  padding: 0 2vw;
+  margin: 0 2vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
   //background: rgb(248, 247, 247);
-  width: 100vw;
+  width: 92vw;
   a {
     padding: 1em 0;
     margin: 0 2%;
