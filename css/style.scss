@@ -231,14 +231,15 @@ h3 {
   #resume {
     display: flex;
     justify-content: center;
+    margin: 1rem 0 2rem;
   }
   a {
     background-color: $darkblue;
-    margin: 1rem 0;
+    margin: 1rem;
 
     color: white;
     font-weight: bold;
-    padding: 0px 30px;
+    padding: 10px 30px;
     line-height: 42px;
     height: auto;
     border-radius: 46px;

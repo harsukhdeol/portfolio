@@ -282,14 +282,15 @@ h3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 1rem 0 2rem;
 }
 
 #about a {
   background-color: #99b5ff;
-  margin: 1rem 0;
+  margin: 1rem;
   color: white;
   font-weight: bold;
-  padding: 0px 30px;
+  padding: 10px 30px;
   line-height: 42px;
   height: auto;
   border-radius: 46px;
